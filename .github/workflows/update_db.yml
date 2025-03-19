@@ -1,0 +1,22 @@
+name: Update Database in Railway
+
+on:
+  push:
+    branches:
+      - main  # Виконується тільки при оновленні гілки main
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонуємо репозиторій
+        uses: actions/checkout@v3
+      
+      - name: Завантажуємо нову базу
+        run: wget -O database.db https://raw.githubusercontent.com/VitaliiTro/SharinghelperBot/main/base_scooters.db
+
+      - name: Оновлюємо базу в Railway
+        run: |
+          railway login --token ${{ secrets.RAILWAY_TOKEN }}
+          railway up  # Деплоїмо оновлені файли в Railway

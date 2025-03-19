@@ -12768,3 +12768,33 @@ AttributeError: module 'datetime' has no attribute 'now'
 2025-03-17 18:07:44,621 - INFO - Користувач 578548261 - vvitalino натиснув команду /cancel_repair
 2025-03-17 18:07:44,700 - INFO - Update id=474990752 is handled. Duration 77 ms by bot id=7690771864
 2025-03-17 18:08:15,635 - INFO - Polling stopped
+2025-03-19 22:36:15,552 - INFO - Start polling
+2025-03-19 22:36:15,742 - INFO - Run polling for bot @SharinghelperBot id=7690771864 - '\U0001f6f4ПОМІЧНИК\U0001f6f4'
+2025-03-19 22:36:26,839 - INFO - Користувач 578548261 - vvitalino натиснув команду /purchase
+2025-03-19 22:36:27,023 - INFO - Update id=474990778 is handled. Duration 187 ms by bot id=7690771864
+2025-03-19 22:36:29,836 - INFO - Update id=474990779 is handled. Duration 88 ms by bot id=7690771864
+2025-03-19 22:36:33,790 - INFO - Update id=474990780 is handled. Duration 106 ms by bot id=7690771864
+2025-03-19 22:36:35,488 - INFO - Update id=474990781 is handled. Duration 82 ms by bot id=7690771864
+2025-03-19 22:36:37,867 - INFO - Update id=474990782 is handled. Duration 216 ms by bot id=7690771864
+2025-03-19 22:36:47,574 - INFO - Update id=474990783 is handled. Duration 2474 ms by bot id=7690771864
+2025-03-19 22:36:56,808 - INFO - Update id=474990784 is handled. Duration 337 ms by bot id=7690771864
+2025-03-19 22:37:14,901 - INFO - Користувач 578548261 - vvitalino натиснув команду /repair
+2025-03-19 22:37:14,982 - INFO - Update id=474990785 is handled. Duration 87 ms by bot id=7690771864
+2025-03-19 22:37:16,428 - INFO - Користувач вибрав місто: Прилуки
+2025-03-19 22:37:16,429 - INFO - Стан після збереження міста: {'CITY': 'Прилуки'}
+2025-03-19 22:37:16,429 - INFO - Функція викликана для міста: Прилуки
+2025-03-19 22:37:16,430 - INFO - Кількість покупців: 1
+2025-03-19 22:37:16,430 - INFO - Покупець: Бойко Артем
+2025-03-19 22:37:16,430 - INFO - Функція викликана для отримання самокатів у місті: Прилуки
+2025-03-19 22:37:16,430 - INFO - Функція викликана для отримання самокатів у місті: Прилуки
+2025-03-19 22:37:16,432 - INFO - Знайдено 19 самокатів у місті Прилуки
+2025-03-19 22:37:16,432 - INFO - Знайдено 19 самокатів у місті Прилуки
+2025-03-19 22:37:16,503 - INFO - Update id=474990786 is handled. Duration 80 ms by bot id=7690771864
+2025-03-19 22:37:17,168 - INFO - Update id=474990787 is handled. Duration 71 ms by bot id=7690771864
+2025-03-19 22:37:18,152 - INFO - Update id=474990788 is handled. Duration 79 ms by bot id=7690771864
+2025-03-19 22:37:20,374 - INFO - Update id=474990789 is handled. Duration 171 ms by bot id=7690771864
+2025-03-19 22:37:25,728 - INFO - Update id=474990790 is handled. Duration 637 ms by bot id=7690771864
+2025-03-19 22:54:32,074 - INFO - Polling stopped
+2025-03-19 22:54:32,255 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2775)
+2025-03-19 22:54:32,255 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7690771864)
+2025-03-19 22:54:32,331 - INFO - Polling stopped for bot @SharinghelperBot id=7690771864 - '\U0001f6f4ПОМІЧНИК\U0001f6f4'
